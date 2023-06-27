@@ -1,5 +1,6 @@
 '''Write a program 
-to find the factorial value of any number entered by the user'''3
+to find the factorial value of any number entered by the user'''
+#Changed the mistakes
 
 
 # cook your dish here
