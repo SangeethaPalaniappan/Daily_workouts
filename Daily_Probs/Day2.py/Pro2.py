@@ -7,3 +7,4 @@ for i in range(T):
         print("wins")
     else:
         print("loses")
+        
