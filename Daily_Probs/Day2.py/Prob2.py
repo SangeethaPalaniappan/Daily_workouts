@@ -3,7 +3,6 @@ S gives A=abc and B=abc. Thus, joining it in either way
 (AB or BA), would give the same string S
 '''
 
-
 # cook your dish here
 T=int(input())
 for i in range(T):
