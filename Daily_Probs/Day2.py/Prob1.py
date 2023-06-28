@@ -7,7 +7,6 @@ BACED
 here the letter c is correct so print("G")
 the output will be : BBGBB'''
 
-
 # cook your dish here
 E=int(input("E"))
 for i in range(E):
