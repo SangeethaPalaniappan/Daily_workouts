@@ -17,4 +17,6 @@ for i in range(E):
             print("G",end="")
         else:
             print("B",end="")
+
+    print("")
     print("")
