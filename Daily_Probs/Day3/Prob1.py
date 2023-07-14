@@ -1,14 +1,11 @@
 
 '''
-Chef recorded a video explaining his favorite recipe. However, the size of the video is too large to upload on the internet. He wants to compress the video so that it has the minimum size possible.
-
+Chef recorded a video explaining his favorite recipe. However, 
+the size of the video is too large to upload on the internet.
+He wants to compress the video so that it has the minimum size possible.
 Chef's video has
-N frames initially. The value of the 
-i 
-th
-  frame is
-A i
- . Chef can do the following type of operation any number of times:'''
+N frames initially. The value of the ith frame is A i.
+Chef can do the following type of operation any number of times:'''
 
 # cook your dish here
 
