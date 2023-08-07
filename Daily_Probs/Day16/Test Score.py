@@ -16,3 +16,4 @@ for X in range(int(input())):
             print("YES")
         else:
             print("NO")
+            
