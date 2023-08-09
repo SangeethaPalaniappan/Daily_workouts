@@ -1,4 +1,8 @@
 # cook your dish here
+
+# Time Complexity - O(1)
+# If including the test case then O(n)
+
 t=int(input("t:"))
 for i in range(t):
     n=int(input("n:"))
