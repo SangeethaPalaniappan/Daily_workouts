@@ -10,7 +10,7 @@ class Node: # This class is for creating Node
 class Linkedlist: # this class is for link the Nodes
     def __init__(self): # whenever this class is called these will create automatically
         self.head=None
-    def insert(self,val): # Inserting the value in the linked list
+    def insert(self,val): # Inserting the value at the last in the linked list 
         newnode=Node(val)
         temp=self.head
         if temp==None:
@@ -19,15 +19,16 @@ class Linkedlist: # this class is for link the Nodes
             while temp.next!=None:
                 temp=temp.next
             temp.next=newnode
-    def reverse(self):
-        top=None
+    def reverse(self): # To reverse the linkedlist
+        # Assigning three ponters
+        top=None 
         head=self.head
         last=head.next
         while last.next!=None:
-            head.next=top
-            top=head
-            head=last
-            last=last.next
+            head.next=top # current node pointing the previous node
+            top=head      # previous node became the current node 
+            head=last     # next node as current node
+            last=last.next# next node's next as next node
         head.next=top
         last.next=head
         self.head=last
