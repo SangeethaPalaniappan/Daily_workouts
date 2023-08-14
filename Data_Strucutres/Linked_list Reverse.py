@@ -1,6 +1,6 @@
 # Linkedlist Reverse 
  
-# Date : 13.08.2023
+# Date the file was Created : 13.08.2023
 
 class Node: # This class is for creating Node
     def __init__(self,val): # whenever this class is called these will create automatically
@@ -20,6 +20,10 @@ class Linkedlist: # this class is for link the Nodes
                 temp=temp.next
             temp.next=newnode
     def reverse(self): # To reverse the linkedlist
+        
+        if self.head==None: # If there is no linkedlist
+            return "No Linkedlist exist"
+        
         # Assigning three ponters
         top=None 
         head=self.head
@@ -39,12 +43,17 @@ class Linkedlist: # this class is for link the Nodes
             temp=temp.next
         
 a=Linkedlist()
-a.insert(1)
-a.insert(2)
-a.insert(3)
-a.insert(4)
-a.insert(5)
+a.insert(13)
+a.insert(20)
+a.insert(903)
+a.insert(432)
+a.insert(523)
 a.printele()
+
 a.reverse()
 print("\n")
 a.printele()
+print("\n")
+m=Linkedlist()
+b=m.reverse()
+print(b)
